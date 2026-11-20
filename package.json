@@ -7,12 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sass": "sass --watch --no-source-map --silence-deprecation=import,global-builtin,color-functions,if-function src/App.scss css/App.css"
   },
   "dependencies": {
     "bootstrap": "^5.3.9",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "sass": "^1.108.2"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

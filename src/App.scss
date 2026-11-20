@@ -1,0 +1,6 @@
+// Eigen kleuren: pas deze aan
+$primary: #9b59b6;
+$secondary: #1abc9c;
+
+// Bootstrap ophalen, altijd ná je eigen variabelen
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

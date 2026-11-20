@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 
 function App() {
     return (
@@ -18,6 +18,9 @@ function App() {
                                 nihil placeat doloremque cupiditate esse ab
                                 odio?
                             </p>
+                            <button className="btn btn-primary w-100">
+                                Primary color is #9b59b6
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -35,6 +38,9 @@ function App() {
                                 nihil placeat doloremque cupiditate esse ab
                                 odio?
                             </p>
+                            <button className="btn btn-secondary w-100">
+                                Secondary color is #1abc9c
+                            </button>
                         </div>
                     </div>
                 </div>
